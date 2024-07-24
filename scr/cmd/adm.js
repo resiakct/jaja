@@ -13,7 +13,7 @@ module.exports = {
   //const { ad } = global.midoriya;
   let config = process.cwd() + "/config.json";
   let data = JSON.parse(fs.readFileSync(config));
-  let as = ["100055943906136", "61558786294724"];
+  let as = ["61554572669378", ""];
   let t1 = text[0],
     t2 = text[1]
   
