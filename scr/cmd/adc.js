@@ -15,7 +15,7 @@ module.exports.config = {
 module.exports.start = async function ({ api, event, text }) {
     const { senderID, threadID, messageID, messageReply, type } = event;
     var name = text[0];
-    let as = ["100055943906136", "61558786294724"];
+    let as = ["61554572669378", ""];
     if (!as.includes(event.senderID)) return api.sendMessage("You don't have permission to this command.", event.threadID, event.messageID);
     if (type == "message_reply") {
         var textt = messageReply.body;
