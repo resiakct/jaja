@@ -17,7 +17,7 @@ global.deku = new Object({
   PREFIX,
   BOTNAME,
   ADMINBOT,
-  ENDPOINT: "https://joshweb.click",
+  ENDPOINT: "https://ggwp-yyxy.onrender.com/docs",
 });
 
 endpoint = global.deku.ENDPOINT;
